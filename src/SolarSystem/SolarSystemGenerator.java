@@ -22,7 +22,7 @@ public class SolarSystemGenerator extends PApplet {
         sun = new Planet(70,0, this, 0.01f, "Star");
         sun.spawnSatellites(5, 1);
 
-        sunImage = loadImage("solarSystemAssets/sunmap.jpg");
+        sunImage = loadImage("/solarSystemAssets/sunmap.jpg");
     }
 
     public void draw(){
